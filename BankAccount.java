@@ -19,7 +19,7 @@ class BankAccount {
         this.noRek = noRek;
         this.namaPemilik = namaPemilik;
         this.jenisAkun = jenisAkun;
-        this.saldo = jenisAkun.equalsIgnoreCase("Tabungan") ? 100.0 : 500.0;
+        this.saldo = jenisAkun.equalsIgnoreCase("Tabungan") ? 100000.0 : 500000.0;
     }
 
     // Menampilkan informasi rekening
